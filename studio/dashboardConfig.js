@@ -25,7 +25,7 @@ export default {
                 },
                 {
                   buildHookId: '60914f972c71441dba6d5299',
-                  title: 'Landing pages Website',
+                  title: 'ScaleSource Website',
                   name: 'nextcms-web',
                   apiId: '30505c0d-39ac-4f83-8eef-ae5d795f7356'
                 }

@@ -19,7 +19,7 @@ export default {
               sites: [
                 {
                   buildHookId: '60914f967fd53019cf90cecf',
-                  title: 'Sanity Studio',
+                  title: 'ScaleSource Studio',
                   name: 'nextcms-studio',
                   apiId: '26ba8993-8cae-4abd-bafe-1b33d6865943'
                 },

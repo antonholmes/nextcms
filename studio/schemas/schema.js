@@ -23,6 +23,11 @@ import hero from './objects/hero';
 import imageSection from './objects/imageSection';
 import mailchimp from './objects/mailchimp';
 import textSection from './objects/textSection';
+import pricing from './objects/pricing'
+import post from './objects/post'
+import author from './objects/author'
+import richText from './objects/richText'
+import figures from './objects/figures'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -44,5 +49,11 @@ export default createSchema({
     simplePortableText,
     siteConfig,
     textSection,
+    pricing,
+    post,
+    author,
+    richText,
+    figures
   ]),
+
 });

@@ -28,6 +28,7 @@ import post from './objects/post'
 import author from './objects/author'
 import richText from './objects/richText'
 import figures from './objects/figures'
+import testimonial from './objects/testimonial'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -53,7 +54,8 @@ export default createSchema({
     post,
     author,
     richText,
-    figures
+    figures,
+    testimonial
   ]),
 
 });

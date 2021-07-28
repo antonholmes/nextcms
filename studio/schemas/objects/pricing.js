@@ -1,28 +1,23 @@
 export default {
   type: 'object',
   name: 'pricing',
-  title: 'Pricing',
   fields: [
     {
-      name: 'heading',
       type: 'string',
-      title: 'Heading',
+      name: 'title'
     },
     {
-      name: 'subtitle',
-      type: 'string',
-      title: 'Subheading',
-    },
+      type: 'boolean',
+      name: 'transparentCTAs',
+      title: 'Enable gradient background'
+    }
   ],
   preview: {
-    select: {
-      title: 'heading',
-    },
+    select: { title: 'title' },
     prepare({ title }) {
       return {
-        title,
-        subtitle: 'Pricing',
-      };
-    },
-  },
-};
+        title: `Pricing module: ${title}`
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "root": true,
   "project": {
-    "name": "Next.js CMS"
+    "name": "Scalesource Next.js CMS"
   },
   "api": {
     "projectId": "u5yut5wb",

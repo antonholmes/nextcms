@@ -1,4 +1,6 @@
 export {default as Hero} from './Hero'
 export {default as Mailchimp} from './Mailchimp'
+export {default as Pricing} from './Pricing'
+export {default as Testimonial} from './Testimonial'
 export {default as TextSection} from './TextSection'
 export {default as ImageSection} from './ImageSection'
